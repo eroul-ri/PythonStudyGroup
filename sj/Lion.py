@@ -1,7 +1,6 @@
-from study.Animal import Animal
+from sj.Animal import Animal
 
-
-class Monkey(Animal):
+class Lion(Animal):
     def __init__(self, type, name, cry):
         self.type = type
         self.name = name
